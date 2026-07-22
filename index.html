@@ -4,7 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Return Request Form Guest - SW B2C DE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="css/form.css" rel="stylesheet" type="text/css">
+    <style>
+        body,
+        body.zf-backgroundBg,
+        .zf-templateWidth,
+        input,
+        select,
+        textarea,
+        button {
+            font-family: 'Poppins', sans-serif !important;
+        }
+    </style>
     <script src="js/validation.js"></script>
 </head>
 
@@ -99,48 +113,19 @@
                                         <div class="zf-clearBoth"></div>
                                     </div>
                                     <div class="zf-tempFrmWrapper  zf-large "><label class="zf-labelName">
-                                            Anliegen
+                                            Retourengrund
                                             <em class="zf-important"> *</em>
                                         </label>
                                         <div class="zf-tempContDiv">
                                             <select class="zf-form-sBox" name="Dropdown" checktype="c1">
                                                 <option selected="true" value="-Select-">Wählen Sie eine Option</option>
-                                                <optgroup label="My Order">
-                                                    <option value="Tracking Information">Tracking Information</option>
-                                                    <option value="Order Status">Order Status</option>
-                                                    <option value="Defective Item">Defective Item</option>
-                                                    <option value="Missing Item">Missing Item</option>
-                                                    <option value="Cancel">Cancel</option>
-                                                    <option value="Lost Package">Lost Package</option>
-                                                    <option value="Other">Other</option>
-                                                </optgroup>
-                                                <optgroup label="Account Help">
-                                                    <option value="Update Account Information">Update Account
-                                                        Information</option>
-                                                    <option value="Forgot Password">Forgot Password</option>
-                                                    <option value="Other Login Issue">Other Login Issue</option>
-                                                    <option value="Login Issue">Login Issue</option>
-                                                </optgroup>
-                                                <optgroup label="Website Support">
-                                                    <option value="Promo Code Issue">Promo Code Issue</option>
-                                                    <option value="Website Issue">Website Issue</option>
-                                                    <option value="Other">Other</option>
-                                                </optgroup>
-                                                <optgroup label="Wholesale Inquiry">
-                                                    <option value="Wholesale Account Information">Wholesale Account
-                                                        Information</option>
-                                                </optgroup>
-                                                <optgroup label="General Inquiries">
-                                                    <option value="Product Assembly">Product Assembly</option>
-                                                    <option value="Affiliate Information Request">Affiliate Information
-                                                        Request</option>
-                                                    <option value="Marketing Inquiry">Marketing Inquiry</option>
-                                                    <option value="Product Request">Product Request</option>
-                                                    <option value="Vendor Inquiry">Vendor Inquiry</option>
-                                                    <option value="Other">Other</option>
-                                                </optgroup>
+                                                <option value="Wird nicht mehr benötigt">Wird nicht mehr benötigt</option>
+                                                <option value="Verspätete Lieferung">Verspätete Lieferung</option>
+                                                <option value="Passt nicht / Falsche Passform">Passt nicht / Falsche Passform</option>
+                                                <option value="Beschädigt / Defekt">Beschädigt / Defekt</option>
+                                                <option value="Sonstiges: bitte angeben">Sonstiges: bitte angeben</option>
                                             </select>
-                                            <p id="Dropdown_error" class="zf-errorMessage" style="display:none;">Bitte wählen Sie ein Anliegen aus</p>
+                                            <p id="Dropdown_error" class="zf-errorMessage" style="display:none;">Bitte wählen Sie einen Retourengrund aus</p>
                                         </div>
                                         <div class="zf-clearBoth"></div>
                                     </div>
